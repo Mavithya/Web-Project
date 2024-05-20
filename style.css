@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Popins", sans-serif;
+    overflow-x: hidden;
+ /* overflow-y: hidden; */
+}
+section {
+     min-height: 100vh; 
+    padding: 1rem 0% 1rem; 
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+video{
+    max-height: 100vh;
+    min-width: 100vw;
+}
+.c-img{
+    height: 80vh;
+    object-fit: cover;
+    filter: brightness(0.7);
+    }
+/* form */
